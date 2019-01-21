@@ -1,0 +1,23 @@
+#home-video {
+  margin-top: rem-calc(40);
+  margin-bottom: rem-calc(40);
+}
+.bg{
+  background: linear-gradient(to top, get-color(primary), get-color(light-primary));
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  img{
+    width: rem-calc(36);
+    margin-right: rem-calc(15);
+  }
+}
+.top-link{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

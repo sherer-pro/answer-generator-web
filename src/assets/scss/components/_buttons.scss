@@ -1,17 +1,19 @@
 .button {
   background: linear-gradient(to right, get-color(light-primary), get-color(primary));
-  //border-radius: 20px;
-  //text-transform: none;
-  //font-size: 20px;
-  //padding-left: 18px;
-  //padding-right: 18px;
   font-weight: 500;
-  //height: 60px;
-  //box-shadow: none;
-  //margin-left: 0;
-  //margin-right: 0;
   &:hover,
   &:focus {
-    background: linear-gradient(to right, get-color(primary), get-color(light-primary));;
+    background: linear-gradient(to right, get-color(primary), get-color(light-primary));
+  }
+  &.download {
+    border-radius: rem-calc(60);
+    padding: rem-calc(7 14 7 7);
+    margin-right: rem-calc(10);
+    margin-top: rem-calc(20);
+    margin-bottom: rem-calc(50);
+    img{
+      height: rem-calc(50);
+      width: auto;
+    }
   }
 }
